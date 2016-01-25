@@ -12,5 +12,5 @@ puts
 
 # task #3
 puts 'The number of days in the less than 31 day months over the past 4 years:'
-# equation is 
+# equation is 4 months have 30 days + 28 for feb times 4 years plus 1 day for the leap year
 puts (((4 * 30) + 28) * 4) + 1
