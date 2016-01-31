@@ -16,11 +16,11 @@ fv_nmbr2 = gets.chomp
 puts ''
 print 'So ' + name + ', if we add your two favorite numbers it comes out to ' ,(fv_nmbr.to_i + fv_nmbr2.to_i), '.'
 puts ''
-print 'If we subtract ' +name+ '\'s two favorite numbers it comes out to ' , (fv_nmbr.to_i - fv_nmbr2.to_i), '.';
+print 'If we subtract ' +name+ '\'s two favorite numbers it comes out to ' , (fv_nmbr.to_i - fv_nmbr2.to_i), '.'
 puts ''
-print 'If we multiply your two favorite numbers ' +name+ ', it would come out to ' , (fv_nmbr.to_i * fv_nmbr2.to_i), '.';
+print 'If we multiply your two favorite numbers ' +name+ ', it would come out to ' , (fv_nmbr.to_i * fv_nmbr2.to_i), '.'
 puts ''
-print 'If we divide ' +name+ '\'s two favorite numbers it would come out to ' , (fv_nmbr.to_i / fv_nmbr2.to_i), '.';
+print 'If we divide ' +name+ '\'s two favorite numbers it would come out to ' , (fv_nmbr.to_i / fv_nmbr2.to_i), '.'
 puts ''
 #For the variables I used name for the persons name, fv_nmbr for their first number and fv_nmbr2 for their second number.  I added .to_i to make the numbers into integers. I also had to add the "," before and after the variables.  Not exactly sure why.
 #When I put in print instead of puts it was the sentences ran together so I added the puts '' in order to separate the lines.
