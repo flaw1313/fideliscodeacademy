@@ -16,8 +16,9 @@ puts ' '
 #
 
 #Task 1:
+#The program needs to output the result of the float 5.0 and the integer 8
 #
-puts 'Task 1 '
+puts 'Task 1: '
 puts 'The result of the float 5.0 and the integer 8 is... '
 puts 5.0 + 8
 puts 'Really, really, come on now! '
@@ -26,8 +27,9 @@ puts ' '
 #
 
 #Task 2:
+#The program needs to output the result of your age in days as of the due date of the assignment (HINT: Don't forget leap years)
 #
-puts 'Task 2'
+puts 'Task 2: '
 #Variables 1
 	#365.25 d/yr
 	#24.0 hr/d
@@ -89,7 +91,25 @@ puts 'This was fun :p '
 puts '-----------------------------------------------------------------------------------------------------------------------------------------------------------'
 puts' '
 #
-
 #Task 3
+#The program needs to output the number of Days that are in the months with less than 31 Days for a 4 year period.
 #
-puts 'Task 3'
+puts 'Task 3:'
+puts 'Over the past 4 year period, the number of days that have been in the months with less than 31 days is...'
+#Variables 1
+	#365.25 d/yr
+	#Seven 31 day months (Jan, Mar, May, Jul, Aug, Oct, Dec)
+	#Four 30 day months (Apr, June, Sep, Nov)
+	#One 28 day month (Feb; except every 4 yr 29 days, for 366 d/yr)
+	    #Feb '12 had 29 days
+#equations
+# (4 * (4 * 30.0)) + ((4 *28.0) + 1)
+#puts (4 * (4 * 30.0)) + ((4 * 28.0) + 1)
+#another equation,  (4 * (5 * 30.0)) - ((3 * 2.0) + 1)
+#puts (4 * (5 * 30.0)) - ((3 * 2.0) + 1)
+#another equation, (365.25 * 4) - ((31.0 * 7) * 4); probably the simplest
+puts (365.25 * 4) - ((31.0 * 7) * 4)
+puts ' '
+puts '-----------------------------------------------------------------------------------------------------------------------------------------------------------'
+
+# I really like how you solved number 3, well done
