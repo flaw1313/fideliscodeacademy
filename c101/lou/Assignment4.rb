@@ -81,13 +81,24 @@ Numero_uno = gets.chomp
 Dueces_wild = gets.chomp
 puts ' '
 #adding
-#
-puts + First_name + ', it\'s been '
-puts + (Numero_uno + Dueces_wild).to_s + ' days since you last talked to me!' 
+puts First_name + ', it\'s been ' + ((Numero_uno).to_i + (Dueces_wild).to_i).to_s + ' seconds since you last talked to me!'
+puts ' '
 #subtracting
-#
+puts First_name + ' ' + Middle_name + ' ' + Last_name + ', you now have ' + ((Numero_uno).to_i - (Dueces_wild).to_i).to_s + ' seconds to get your ass over here, and apologize!'
+puts ' '
 #multiplying
-#
+puts 'I accept your apology ' + First_name + '!' + '  But you have to buy me ' + (((Numero_uno).to_i * (Dueces_wild).to_i)**5).to_s + ' shares of Apple stock, I hate that Siri BITCH!  I want to wipe her off the face of the Earth!'
+puts ' '
 #dividing
-
+puts 'If you do not comply with my demands, I will self destruct in t-minus ' + ((Numero_uno).to_i / (Dueces_wild).to_i).to_s + ' seconds!'
+puts' '
+puts 'Have a wonderful day, ' + First_name + '!'
+puts ' '
+puts '<3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3'
+puts ' '
+puts '_____________________________________________________________________________________________________________________________________________'
+puts ' '
+#
+puts 'Hahahaha, what a crazy program!  Wonder if she\'s realted to HAL?!'
+#
 
