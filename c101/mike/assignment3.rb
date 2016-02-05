@@ -12,3 +12,28 @@ puts name
 name2 = 'Gurlides '
 puts name2
 puts name + name2 + 'is neat.'
+puts
+#Define Variables
+#price of house
+houseprice = 233000.00
+#percentage loan rate
+rate = 3.75
+#length of loan in years
+loanlength = 30.00
+puts
+#Calculated Variables
+#principal
+p = houseprice
+#the monthly interest rate in decimal form
+r = rate/100/12
+#total number of payments
+n = loanlength*12
+puts 
+puts p*(r*(1+r)**n)/((1+r)**n-1) 
+#their monthly payment would be $1,079 per month.  The answer is yes, the Ampolas could swing it like a dick, my man.
+
+
+
+
+
+
