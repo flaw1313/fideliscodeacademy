@@ -111,3 +111,5 @@ puts 'Over the past 4 year period, the number of days that have been in the mont
 puts (365.25 * 4) - ((31.0 * 7) * 4)
 puts ' '
 puts '-----------------------------------------------------------------------------------------------------------------------------------------------------------'
+
+# I really like how you solved number 3, well done
