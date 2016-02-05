@@ -5,3 +5,6 @@ puts 5 + 2 + 1
 puts (34 * 365) + 8 + (30-17) + 31 + 29
 #4 years x February days + one leap year day + 4 years x 30 days x how many months with 30 days
 puts (4 * 28) + 1 + (4 * 30) *4
+
+
+# I'll give you credit for the first task, not quite what I meant, but still statified the assignment
