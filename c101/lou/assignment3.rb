@@ -101,7 +101,7 @@ puts 'really_afford_this_house = I; ' 'where "I" = (c(1 + c)**n)/((1 + c)**n - 1
 can_Mike_and_Kelly = 1100
 really_afford_this_house = ((3.125 * 10**-3)*(1 + (3.125 * 10**-3))**360) / (((1 + (3.125 * 10**-3))**360) - 1 )
 puts ' '
-puts 'The Ampola\'s with the assumed terms can afford a house with a mortgage of $'+ ((can_Mike_and_Kelly) /  (really_afford_this_house)).to_s + '!' + '  So yes, they can easily afford the $233,000 house!'
+puts 'The Ampola\'s with the assumed terms can afford a house with a mortgage of $'+ ((can_Mike_and_Kelly) /  (really_afford_this_house)).to_s + '!' + '  So yes, they can afford the $233,000 house!'
 puts '__________________________________________________________________________________________________'
 puts ' '
 #
