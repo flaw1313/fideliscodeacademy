@@ -28,7 +28,7 @@ puts "The payment is $%.2f per month." % [payment] #Frank, can you explain to me
 #Two possible responses: you can buy it, or you can live by Rob
 resp1 = 'Buy that house, ' + name
 resp2 = 'Sorry, ' + name + ', you cannot afford this house. You should look for homes closer to Rob.'
-if payment>=budget
+if payment>budget
 print resp2
 else
 print resp1
