@@ -24,11 +24,11 @@ budget = gets.chomp.to_i
 i = (1+rate/12)**(12/12)-1
 annuity = (1-(1/(1+i))**time)/i
 payment = loan/annuity
-puts "The payment is $%.2f per month." % [payment] #Frank, can you explain to me why this works? I found this on StackOverflow, but I am still unclear about the use of %. 
+puts "The payment is $%.2f per month." % [payment] 
 #Two possible responses: you can buy it, or you can live by Rob
 resp1 = 'Buy that house, ' + name
 resp2 = 'Sorry, ' + name + ', you cannot afford this house. You should look for homes closer to Rob.'
-if payment>=budget
+if payment>budget
 print resp2
 else
 print resp1
