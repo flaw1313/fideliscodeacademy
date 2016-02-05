@@ -3,7 +3,7 @@ vari1 = '23'
 puts vari1.to_i + 10
 #to change the string 23 to an integer I added ".to_i" this allowed me to add it to the integer 10.
 puts ''
-puts 'Hey you...yeah you!  Want some free candy? What is your name?'
+puts 'Hey you...yeah you!  Want some free candy? What\'s your name?'
 name = gets.chomp
 puts ''
 puts 'Hello ' + name + ', I hope you have a wonderful day.'
@@ -26,7 +26,7 @@ print 'If we multiply your two favorite numbers ' +name+ ', it would come out to
 puts ''
 print 'If we divide ' +name+ '\'s two favorite numbers it would come out to ' ,(fv_nmbr / fv_nmbr2), '.'
 puts ''
-puts fv_nmbr+fv_nmbr2
+
 #For the variables I used name for the persons name, fv_nmbr for their first number and fv_nmbr2 for their second number.  
 #I made the variable fv_nmbr and fv_nmbr2 into integers by added .to_i to them.  
 #Not totally sure why I had to add the comma's and the brackets for it to work
