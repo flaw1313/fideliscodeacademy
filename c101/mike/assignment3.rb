@@ -32,7 +32,9 @@ puts
 puts p*(r*(1+r)**n)/((1+r)**n-1) 
 #their monthly payment would be $1,079 per month.  The answer is yes, the Ampolas could swing it like a dick, my man.
 
-
+# well done, looks good. Only a few comments
+# 1 - Curious why you did puts var1 * 1. You should be able to just do puts var1 in that case
+# 2 - for your variable naming, try to do either house_price or housePrice, instead of houseprice. It is just a good habit to get into.
 
 
 

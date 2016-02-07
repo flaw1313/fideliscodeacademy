@@ -37,3 +37,6 @@ puts ''
 puts 'But let us be honest with ourselves; after Ampola demolishes his own home in drunken stupors, the value of the house and the neighborhood would significantly decrease as time progresses.'
 #So the answer is yes, Ampola and Kelly will be able to afford the monthly mortgage payment until Ampola's alcohol and weed bills get factored in.
 #So I had to do a little research here because I was using the "^" symbol and I wasn't getting the figures correct.  So instead of using the '^' key I ended up using '**'.  The answer came out correctly so I'm assuming that's the way to do it.
+
+# Well done. The only issue I see is that because you converted your mnthly_cst to an integer you lost the pennys to display, which really isn't a big deal. 
+# One habit to get into is while it is more to type, it is actually better to fully spell out your variable names as far as readability goes.
