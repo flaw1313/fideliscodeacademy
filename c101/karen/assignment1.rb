@@ -2,10 +2,6 @@ puts 5.0 + 8
 puts (41 * 365) + 117 + 10
 puts (4 * 30) * 4 + (28 * 3) + 29 
 
-puts gets
-puts 'Hello there, what\'s your name?'
-name = gets.chomp
-puts 'Your name is ' + name + '? What a lovely name!'
 
 my_variable = 13
 puts my_variable 
