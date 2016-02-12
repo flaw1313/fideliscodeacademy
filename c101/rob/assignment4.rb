@@ -32,3 +32,9 @@ puts ''
 #Not totally sure why I had to add the comma's and the brackets for it to work 
 #I'm assuming it has to do with being in a sentence.
 #When I put in print instead of puts it was the sentences ran together so I added the puts '' in order to separate the lines.
+
+
+# Well done. So to answer a few of your questions. 1) you had to put the puts because of what we talked about in class, print doesn't do a carriage return
+# 2) I believe you had to the commas because print doesn't know to do the math without them or how to convert a number to a string without them. Another way you could have done it without them 
+# is to do the math, convert it to a string and store it in a variable. Then use string arthimetic to do the insertion into the rest of the string. 
+# Overall a good effor though.

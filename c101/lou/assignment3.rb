@@ -107,3 +107,6 @@ puts ' '
 #
 puts 'Nice try, these are getting complicated and fun!'
 #
+
+# I like your creativity but you missed some of the point of the last task. Given the complicated equation, what I was looking for was each of the parts of the equation being a variable.
+# Whie you stored the result in the variable, the power of the variables are that they make a long equation more readable than doing it with the values. Makes sense?

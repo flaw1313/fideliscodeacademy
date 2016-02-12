@@ -102,3 +102,6 @@ puts ' '
 puts 'Hahahaha, what a crazy program!  Wonder if she\'s realted to HAL?!'
 #
 
+
+# Well done. You definitely went above and beyond. The only issue I see is if you are going to put in extra things you prompt for, try adding puts in betweem the gets so the user 
+# knows what they are entering. I know you say it above but you assume that the user is going to read a lot, and remember. 
