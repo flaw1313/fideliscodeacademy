@@ -29,7 +29,6 @@ puts ''
 
 #For the variables I used name for the persons name, fv_nmbr for their first number and fv_nmbr2 for their second number.  
 #I made the variable fv_nmbr and fv_nmbr2 into integers by added .to_i to them.  
-#Not totally sure why I had to add the comma's and the brackets for it to work
-#I originally thought once I made the variables into integers by adding the .to_s that I wouldn't need the brackets and comma. 
+#Not totally sure why I had to add the comma's and the brackets for it to work 
 #I'm assuming it has to do with being in a sentence.
 #When I put in print instead of puts it was the sentences ran together so I added the puts '' in order to separate the lines.
