@@ -1,4 +1,4 @@
-#Assignment 3
+#Assignment 3 version 1
 #
 #Create a program in your project directory called assignment3.rb
 #Use comments throughout your code to explain what you are doing. Any line in Ruby that starts with the '#' is considered a comment and ignored by the computer.
@@ -78,8 +78,9 @@ puts ' '
 #equations for mortgage:
 #Total number of payments = nubmer of years * payments year
 	#30*12 = 360 total payments per Interest
-#Interest per payment is equal to Interest rate / Total number of payments
-	#0.0375/360 = 1.0417 * 10**-4
+#Interest per payment is equal to Interest rate / Total number of payments per year
+#Interest vaule is incorrect, calculated incorrectly
+	#0.0375/12 = 3.125 * 10**-3
 #Monthly Payments = L[c(1 + c)^n]/[(1 + c)^n - 1], where L stands for "loan," C stands for "per payment interest," and N is the "payment number.
 	#sub I = (c(1 + c)**n)/((1 + c)**n - 1)
 	#M=L*I
@@ -87,7 +88,8 @@ puts ' '
 #variables:
 #can_Mike and_Kelly = M = 1100
 #really_afford_this_house = I = (c(1 + c)**n)/((1 + c)**n - 1)
-	# I = ((1.0417 * 10 **-4)*(1 + (1.0417 * 10**-4))**360) / (((1 + (1.0417 * 10**-4))**360) - 1 )
+	# inlcuding the correct value for interest 3.125*10**-3
+	# I = ((3.125 * 10**-3)*(1 + (3.125 * 10**-3))**360) / (((1 + (3.125 * 10**-3))**360) - 1 )
 puts ' '
 puts 'Yay for complicated math in a program, this shit might be worse than figuring out excel funcitons and what not!'
 #
@@ -97,11 +99,14 @@ puts 'can_Mike_and_Kelly = 1100'
 puts 'really_afford_this_house = I; ' 'where "I" = (c(1 + c)**n)/((1 + c)**n - 1)'
 #
 can_Mike_and_Kelly = 1100
-really_afford_this_house = ((1.0417 * 10 **-4)*(1 + (1.0417 * 10**-4))**360) / (((1 + (1.0417 * 10**-4))**360) - 1 )
+really_afford_this_house = ((3.125 * 10**-3)*(1 + (3.125 * 10**-3))**360) / (((1 + (3.125 * 10**-3))**360) - 1 )
 puts ' '
-puts 'The Ampola\'s with the assumed terms can afford a house with a mortgage of $'+ ((can_Mike_and_Kelly) /  (really_afford_this_house)).to_s + '!' + '  So yes, they can easily afford the $233,000 house!'
+puts 'The Ampola\'s with the assumed terms can afford a house with a mortgage of $'+ ((can_Mike_and_Kelly) /  (really_afford_this_house)).to_s + '!' + '  So yes, they can afford the $233,000 house!'
 puts '__________________________________________________________________________________________________'
 puts ' '
 #
 puts 'Nice try, these are getting complicated and fun!'
 #
+
+# I like your creativity but you missed some of the point of the last task. Given the complicated equation, what I was looking for was each of the parts of the equation being a variable.
+# Whie you stored the result in the variable, the power of the variables are that they make a long equation more readable than doing it with the values. Makes sense?

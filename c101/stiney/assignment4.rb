@@ -12,15 +12,19 @@ puts 'Pick another number.'
 num_2=gets.to_i
 puts 'Let\'s do some math. I can "add", "subtract", "multiply", or "divide" these numbers. Unfortunately I went to public school so I can only do one. You call it, what shall I do?'
 operation =gets.chomp
+
 #User decides which operation
-if operation== 'add'
-print (+num_1) + (+num_2)
+if operation == 'add'
+  print (+num_1) + (+num_2)
 elsif operation == 'subtract'
-print (+num_1) - (+num_2)
+  print (+num_1) - (+num_2)
 elsif operation == 'multiply'
-print (+num_1)*(+num_2)
+  print (+num_1) * (+num_2)
 elsif operation == 'divide'
-print (+num_1) / (+num_2)
+  print (+num_1) / (+num_2)
 else
-print 'Learn how to type. Now start over!'
+  print 'Learn how to type. Now start over!'
 end
+
+# Really well done. I like the user protection a lot. I will introduce style formatting, but I have changed your file to show you how
+# the logic is written so it is easier to read.
