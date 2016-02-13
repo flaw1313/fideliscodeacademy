@@ -1,4 +1,4 @@
-#Create a program that encodes and decodes messages, using a cipher kept in a separate program: cipher.rb
+#Create a program that encodes and decodes messages
 puts 'Welcome the Stiney Cipher. Enter your message?'
 message = gets.chomp
 message1=message.reverse
