@@ -14,9 +14,9 @@ puts ((rand(69)+1).to_s) + ',' + ((rand(69)+1).to_s) + ',' + ((rand(69)+1).to_s)
 puts ' '
 
 #dice roll: random number from 1 - 6
-random_number1 = ((rand(6)+1).to_s)
-random_number2 = ((rand(6)+1).to_s)
-puts random_number1 + ' & ' + random_number2
+random_number1 = ((rand(6)+1))
+random_number2 = ((rand(6)+1))
+puts (random_number1) + (random_number2)
 puts ' '
 
 #Ball in cup game
