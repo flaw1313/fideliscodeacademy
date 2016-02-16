@@ -34,7 +34,7 @@ puts('Thu-Mar 3'.ljust(column_1) + 'Fire Breathing Rubber Duckies'.rjust(column_
 
 
 
-
+# FFL - Awesome use of variables for the columns, that was really well done!
 
 
 

@@ -147,4 +147,5 @@ puts (date_3.ljust (line_width)/2) + (home_team_3.rjust (line_width)) + (home_sc
 puts (date_4.ljust (line_width)/2) + (home_team_4.rjust (line_width)) + (home_score_4.rjust (line_width)/10) + ('-'.center (line_width)/10) + (away_score_4.ljust (line_width)/10) + (away_team_4.ljust (line_width)) + (time_status_4.ljust (line_width))
 
 
-
+# FFL- Well done. I really like the approach you took. We will be learning loops which will allow you 
+# to do what you did here at the end but not have to copy the same code a bunch of times

@@ -61,5 +61,5 @@ puts '----------------------------------------------------------'
 #Chap6 Assignment 6 #5
 #Create a three card monte game. This is the original "ball and cups" game where you try to find out which cup has the ball under it. You may play with three cups and a ball. Basically, randomly select a cup to hide the "ball". Let the player guess which cup hides the ball. The player wins if they guess correctly.
 
-
+# FFL - Well done, I like the addition of diameter on the first task
 
