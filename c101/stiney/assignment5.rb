@@ -55,3 +55,4 @@ puts week7.ljust(10) + team5.rjust(32) + '  '.center(10) + team2.ljust(32) + gam
 puts week8.ljust(10) + team11.rjust(32) + '  '.center(10) + team2.ljust(32) + game1.ljust(15) + field1.ljust(15)
 
 
+# FFL - Well done, nice use of variables for the output

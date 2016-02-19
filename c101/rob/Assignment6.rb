@@ -61,6 +61,7 @@ puts '----------------------------------------------------------'
 #Chap6 Assignment 6 #5
 #Create a three card monte game. This is the original "ball and cups" game where you try to find out which cup has the ball under it. You may play with three cups and a ball. Basically, randomly select a cup to hide the "ball". Let the player guess which cup hides the ball. The player wins if they guess correctly.
 
+<<<<<<< HEAD
 ball = (rand(3)+1).to_s
 puts '3 card monte.  Pick the right cup and you win.  Choose cup 1, 2, or 3.'
 pick = gets.chomp
@@ -69,3 +70,7 @@ if ball == pick
 else
   puts 'Pay me biotch!!! The ball is under cup ' + ball + '. Maybe get some glasses.'
 end
+=======
+# FFL - Well done, I like the addition of diameter on the first task
+
+>>>>>>> 27d9a62730a96de578bd2f190bad68330a6f7099
