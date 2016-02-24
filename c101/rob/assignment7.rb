@@ -71,12 +71,8 @@ weight = gets.chomp
 weight = weight.chomp.to_i
 
 puts
-if weight > 175
-  puts 'WHOA THERE TUBBY! I\'m going to assume you\'d like to go to a planet that makes you weigh less.'
-elsif weight <= 175
-  puts 'Alright you fitness buff, blow me.'
-end
-puts 
+
+puts 'WHOA THERE TUBBY! I\'m going to assume you\'d like to go to a planet that makes you weigh less.'
 puts 'Either way pick a planet and I\'ll let you know how much more or less you weigh based on that planets gravitational pull.'
 planet  = gets.chomp
 planet  = planet.chomp
