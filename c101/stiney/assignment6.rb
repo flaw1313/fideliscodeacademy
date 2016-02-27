@@ -29,3 +29,7 @@ if ball == guess
 else 
 	puts 'Nope! the ball is under cup ' + ball + ' Try again!'
 end
+
+
+# FFL - Well done! Really glad you got the extra credit and everything. One thing to keep in mind, normally 
+# we would do the comparison of two numbers vs. two strings but it works either way. 

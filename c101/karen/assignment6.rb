@@ -17,3 +17,6 @@ if guess.to_i == answer
 else
   puts 'You lose, the answer was ' + answer.to_s
 end
+
+
+# FFL - Well done, not an easy one!
