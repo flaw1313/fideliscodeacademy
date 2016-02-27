@@ -110,7 +110,7 @@ planet  = planet.capitalize
 puts
 if planet == 'Venus'
   space_weight = venus.to_f * weight.to_f
-elsif planet == 'Mars'
+  elsif planet == 'Mars'
     space_weight = mars.to_f * weight.to_f
   elsif planet == 'Jupiter'
     space_weight = jupiter.to_f * weight.to_f
