@@ -1,3 +1,6 @@
+
+
+
 #Prompt the user for their age. Based on their answer show a message following the criteria below.
 #Age Message
 #less than 16  You can't drive
@@ -53,55 +56,75 @@ age = age.chomp.to_i
 #Uranus  1.05
 #Neptune 1.23
 puts
-puts 'Hey Fatty McFatterson, check out my table that has a list of planets that I made to figure out how much you\'d weigh if you were there.'
+
+
+
+
+puts 'Try to be as honest as possible.'
+puts 'How much do you approximately weigh?'
+weight = gets.chomp
+weight.chomp.to_i
+
+if weight >= '170'
+  puts 'Lets ease off the hoagies there buddy!'
+    elsif weight <= '169'
+      puts 'Wow, I didn\'t know we had Billy Blanks up in here!'
+end
+
+puts
+
+venus_relative_gravity = 0.78
+venus = venus_relative_gravity.to_s
+
+mars_relative_gravity = 0.39
+mars = mars_relative_gravity.to_s
+
+jupiter_relative_gravity = 2.65
+jupiter = jupiter_relative_gravity.to_s
+
+saturn_relative_gravity = 1.17
+saturn = saturn_relative_gravity.to_s
+
+uranus_relative_gravity = 1.05
+uranus = uranus_relative_gravity.to_s
+
+neptune_relative_gravity = 1.23
+neptune = neptune_relative_gravity.to_s
+
+puts 'Alright, check out my table that has a list of planets that I made to figure out how much you\'d weigh if you were there.'
 puts
 line_width = 30
-heading_1 = 'Planet'
-heading_2 = 'Relative Gravity'
-puts (heading_1.center (line_width))  + (heading_2.center (line_width))
-puts ('Venus'.ljust (line_width))     + ('0.78'.ljust (line_width))
-puts ('Mars'.ljust (line_width))      + ('0.39'.ljust (line_width))
-puts ('Jupiter'.ljust (line_width))   + ('2.65'.ljust (line_width))
-puts ('Saturn'.ljust (line_width))    + ('1.17'.ljust (line_width))
-puts ('Uranus'.ljust (line_width))    + ('1.05'.ljust (line_width))
-puts ('Neptune'.ljust (line_width))   + ('1.23'.ljust (line_width))
+puts ('Planet'.center (line_width))   + ('Relative Gravity'.center (line_width))
+puts ('Venus'.ljust (line_width))     + (venus.ljust (line_width))
+puts ('Mars'.ljust (line_width))      + (mars.ljust (line_width))
+puts ('Jupiter'.ljust (line_width))   + (jupiter.ljust (line_width))
+puts ('Saturn'.ljust (line_width))    + (saturn.ljust (line_width))
+puts ('Uranus'.ljust (line_width))    + (uranus.ljust (line_width))
+puts ('Neptune'.ljust (line_width))   + (neptune.ljust (line_width))
 puts 
-puts 'Alright there my Butterball friend, how much you weighing these days?'
-weight = gets.chomp
-weight = weight.chomp.to_i
+
+puts 'Now pick a planet from the list and I\'ll let you know how much more or less you weigh based on that planets gravitational pull.'
+planet  = gets.chomp
+planet  = planet.capitalize
 
 puts
-
-puts 'WHOA THERE TUBBY! I\'m going to assume you\'d like to go to a planet that makes you weigh less.'
-puts 'Either way pick a planet and I\'ll let you know how much more or less you weigh based on that planets gravitational pull.'
-planet  = gets.chomp
-planet  = planet.chomp
-venus   = 0.78 * weight
-venus   = venus.to_f
-mars    = 0.39 * weight
-mars    = mars.to_f
-jupiter = 2.65 * weight
-jupiter = jupiter.to_f
-saturn  = 1.17 * weight
-saturn  = saturn.to_f
-uranus  = 1.05 * weight
-uranus  = uranus.to_f
-neptune = 1.23 * weight
-neptune = neptune.to_f
-
-
 if planet == 'Venus'
-  puts 'On ' + planet + ' you weigh ' + venus.to_s + ' pounds.'
+  space_weight = venus.to_f * weight.to_f
 elsif planet == 'Mars'
-  puts 'On ' + planet + ' you weigh ' + mars.to_s + ' pounds.'
-elsif planet == 'Jupiter'
-  puts 'On ' + planet + ' you weigh ' + jupiter.to_s + ' pounds.'
-  puts 'So pretty equivalent to what your mother weighs on earth.'
-elsif planet == 'Saturn'
-  puts 'On ' + planet + ' you weigh ' + saturn.to_s + ' pounds.'
-elsif planet == 'Uranus'
-  puts 'On ' + planet + ' you weigh ' + uranus.to_s + ' pounds.'
-  puts 'And lets be honest Uranus definitely takes on some poundings.'
-elsif planet == 'Neptune'
-  puts 'On ' + planet + ' you weigh ' + neptune.to_s + ' pounds.'
+    space_weight = mars.to_f * weight.to_f
+  elsif planet == 'Jupiter'
+    space_weight = jupiter.to_f * weight.to_f
+    puts 'So pretty equivalent to what your mother weighs on earth.'
+  elsif planet == 'Saturn'
+    space_weight = saturn.to_f * weight.to_f
+  elsif planet == 'Uranus'
+    space_weight = uranus.to_f * weight.to_f
+      puts 'And lets be honest Uranus definitely takes on some poundage.'
+  elsif planet == 'Neptune'
+   space_weight = neptune.to_f * weight.to_f
 end
+
+puts 'On planet ' + planet + ' you weigh ' + space_weight.to_s + '.'
+
+puts 'Also, I know it\'s not called weight in space.  I just don\'t give a rip!'
+
