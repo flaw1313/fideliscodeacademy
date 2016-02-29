@@ -24,3 +24,14 @@ end
 puts
 
 #Print out all of the numbers from 1 to 1000
+numbers = [*1..1000]
+numbers.each do |total|
+  puts total
+end
+
+#Print out all of the leap years from 1901 to 2016.
+puts 'Leap years starting since 1901 to the present.'
+year = [*1901..2016]
+
+
+
