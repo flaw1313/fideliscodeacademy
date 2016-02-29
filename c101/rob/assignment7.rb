@@ -105,3 +105,18 @@ elsif planet == 'Uranus'
 elsif planet == 'Neptune'
   puts 'On ' + planet + ' you weigh ' + neptune.to_s + ' pounds.'
 end
+
+
+# FFL - The project itself is good, just two things.
+
+# 1 - I fixed your tabing with your nested if statements at the top of the program
+# Remember you want to setup the different tab levels based on the ifs so like this...
+#
+# if (true)
+#   if (true)
+#     something here
+#   end
+# end
+
+# 2 - We talked through the need to not repeat all of the puts throughout the elsif block
+
