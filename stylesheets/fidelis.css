@@ -1,0 +1,18 @@
+.code_block {
+	background-color: #000000;
+	color: #FFFFFF;
+	padding-left: 10px;
+	
+}
+
+.code_block_header
+{
+	background-color: #ffffff;
+	color: #000000;
+	padding-left: 5px;
+}
+
+.code_block_user_answer
+{
+	color: #69DD58;
+}
