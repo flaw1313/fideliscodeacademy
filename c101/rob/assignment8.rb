@@ -24,14 +24,25 @@ end
 puts
 
 #Print out all of the numbers from 1 to 1000
-numbers = [*1..1000]
-numbers.each do |total|
-  puts total
+number = 0
+while number < 1001
+  puts number
+  number = number + 1
 end
 
 #Print out all of the leap years from 1901 to 2016.
 puts 'Leap years starting since 1901 to the present.'
-year = [*1901..2016]
 
+start_year = 1901
+ending_year = 2016
 
+leap_year = start_year - start_year % 4
+leap_year = leap_year + 4 unless start_year == leap_year
+
+while leap_year <= ending_year
+  if (leap_year % 100) != 0 || (leap_year % 400) == 0
+  puts leap_year
+end
+  leap_year = leap_year + 4
+end
 
