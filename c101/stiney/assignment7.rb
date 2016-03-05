@@ -80,4 +80,8 @@ else
 end		
 print 'Your relative gravity on ' + planet.capitalize + ' is %.3f' % [relative_gravity]
 
+# FFL - Looks good!
+# Everything works well, the only thing I would consider is the nested if you used for the planents
+# might have been better as elsif, would just save you some of the ends.
+
 
