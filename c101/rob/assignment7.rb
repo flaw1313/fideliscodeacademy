@@ -1,6 +1,3 @@
-
-
-
 #Prompt the user for their age. Based on their answer show a message following the criteria below.
 #Age Message
 #less than 16  You can't drive
@@ -18,21 +15,21 @@ age = age.chomp.to_i
   end
 
   if age >= 16
-  if age <= 17
-    puts 'You can drive, but not vote.'
-  end
+    if age <= 17
+      puts 'You can drive, but not vote.'
+    end
   end
   
   if age >= 18
-  if age <  21
-    puts 'You can vote, but not drink.'
-  end
+    if age <  21
+      puts 'You can vote, but not drink.'
+    end
   end
   
   if age >= 21
-  if age <= 24
-    puts 'You can drink, but not rent a car.'
-  end
+    if age <= 24
+      puts 'You can drink, but not rent a car.'
+    end
   end
   
   if age >  24
@@ -127,4 +124,18 @@ end
 puts 'On planet ' + planet + ' you weigh ' + space_weight.to_s + '.'
 
 puts 'Also, I know it\'s not called weight in space.  I just don\'t give a rip!'
+
+
+# FFL - The project itself is good, just two things.
+
+# I fixed your tabing with your nested if statements at the top of the program
+# Remember you want to setup the different tab levels based on the ifs so like this...
+#
+# if (true)
+#   if (true)
+#     something here
+#   end
+# end
+
+# your other option was to use && to check both conditionals at the same time
 

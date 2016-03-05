@@ -94,11 +94,10 @@ elsif planet == 'Uranus'
 	puts uranus
 elsif planet == 'Neptune'
 	puts neptune
-
-
-
-
-
-
 end
+
+
+# FFL - looks great man. 
+# I love the table of planets
+
 
