@@ -42,7 +42,7 @@ leap_year = leap_year + 4 unless start_year == leap_year
 while leap_year <= ending_year
   if (leap_year % 100) != 0 || (leap_year % 400) == 0
   puts leap_year
-end
-  leap_year = leap_year + 4
+  end
+    leap_year = leap_year + 4
 end
 
