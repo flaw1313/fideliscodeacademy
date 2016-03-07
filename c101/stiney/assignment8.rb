@@ -38,5 +38,10 @@ while (starting_year <= ending_year)
 	end
 
 
+  # well done, cheecky way to do the number printing. That is called iteration over an array, we will be
+  # going over that this week, or the next
+  # Be careful with your formatting, take a look at the last while loop and try
+  # to figure out what is wrong with your indentation.
+
 	
 		
