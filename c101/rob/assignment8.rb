@@ -12,12 +12,11 @@ pick = gets.chomp
 while true
   if card == pick
     puts winning_response
-    break
-  elsif card != pick
+    break#end after this
+  elsif card != pick #not needed (remove), redundant
     puts 'Guess again brah!'
     pick = gets.chomp
-  elsif card == pick
-   
+  
     break     
   end
 end
@@ -41,8 +40,8 @@ leap_year = leap_year + 4 unless start_year == leap_year
 
 while leap_year <= ending_year
   if (leap_year % 100) != 0 || (leap_year % 400) == 0
-  puts leap_year
+    puts leap_year
   end
-    leap_year = leap_year + 4
+  leap_year = leap_year + 4
 end
-
+#% means mod
