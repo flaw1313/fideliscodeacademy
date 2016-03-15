@@ -57,6 +57,7 @@ names.push name_3
 puts
 
 puts names
+#seems too simple
 
 
 puts names [0] + ' is in the first slot.'
