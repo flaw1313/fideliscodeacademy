@@ -46,3 +46,8 @@ while leap_year <= ending_year
     leap_year = leap_year + 4
 end
 
+
+# FFL - Well done, you definitely got the gist of the program and looping
+# There are some issues with the if logic in the first task. you aren't alone
+# a few people had the same issue, so I will cover it in the next class.
+
