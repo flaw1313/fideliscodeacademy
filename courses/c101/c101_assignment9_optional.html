@@ -46,45 +46,28 @@
 
       <section id="main_content">
         <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Assignment 10 - Looping and Iterators</h3>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Assignment 9 - Arrays</h3>
 
-<p>In this assignment you will be creating a program to demonstrate your knowledge of how Ruby handles arrays and looping.</p>
+<p>In this assignment you will be creating a program to demonstrate your knowledge of how Ruby handles arrays.</p>
 
 <h3>Program Requirements</h3>
 <ol>
-	<li>Create a program in your project directory called <strong>assignment10.rb</i></strong></li>
-	<li>Write a program that prompts the user for a student's name. Then fill an array with 5 random number grades from 40 to 100. Use the <strong>each</strong> method on the array to loop over the values and print out the number grades. While you are looping you should determine the Letter Grade for each number grade and store that in another array. Once that is done, you should loop on that new array and print out the letter grades.	
+	<li>Create a program in your project directory called <strong>assignment9_optional.rb</i></strong></li>
+	<li>Write a program that prompts the user for the size of an array to create. Based on their answer create an array which can hold that number of values and fill the array with random numbers from 1 to 100. Display the values in the array on the screen. Then use a linear search to find the largest value in the array, and display that value and its slot number.
 	<div class="code_block_header">Possible output </div>
 		<div class="code_block">
-			Name (first last): <span class="code_block_user_answer">Marc Antony</span><br/>
+			Enter size of an array you want:  <span class="code_block_user_answer">10</span><br/>
+			Array: 45 87 39 32 93 86 12 44 75 50 <br />
 
-
-			Here are your randomly-selected number grades (hope you pass):<br />
-			Grade 1: 64<br />
-			Grade 2: 90<br />
-			Grade 3: 78<br />
-			Grade 4: 97<br />
-			Grade 5: 52<br />
-			<br />
-			Here are your letter grades:<br />
-			Grade 1: D<br />
-			Grade 2: A<br />
-			Grade 3: C<br />
-			Grade 4: A<br />
-			Grade 5: F<br />
+			The largest value is 93<br />
+			It is in slot 4
 		</div>
 
 	</li>
 </ol>
 
-The letter grades follow the following criteria...
-<ul>
-	<li>A = 100 to 90</li>
-	<li>B = 89 to 80</li>
-	<li>C = 79 to 70</li>
-	<li>D = 69 to 60</li>
-	<li>F = less than 60</li>
-</ul>
+HINT: a linear search is just going through each of the numbers in the array and keeping track of the largest one. For example, you would look at slot 0 and start with that number, then compare it to the value in slot 1, whichever is the highest you store and then move to the next slot until you get to the end of the array. 
+
 
 <h3>Assignment Process and Grading</h3>
 
