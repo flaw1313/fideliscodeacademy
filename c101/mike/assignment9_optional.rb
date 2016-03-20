@@ -46,3 +46,6 @@ end
 puts 'The largest value is ' + largest_value.to_s
 
 puts 'It is in slot ' + largest_slot.to_s
+
+
+# Perfectly done man, really well done!

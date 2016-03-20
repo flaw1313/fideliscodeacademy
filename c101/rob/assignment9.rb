@@ -63,3 +63,6 @@ puts names
 puts names [0] + ' is in the first slot.'
 puts names [1] + ' is in the second slot.'
 puts names [2] + ' is in the third slot.'
+
+
+# Well done man, looks great. We will talk about the assignment in class, but looks good to me.

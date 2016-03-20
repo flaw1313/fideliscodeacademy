@@ -38,3 +38,6 @@ names = [name_1, name_2, name_3]
 puts names[0] + ' - slot 1'
 puts names[1] + ' - slot 2'
 puts names[2] + ' - slot 3'
+
+
+# Well done, and nice use of the count method on the array object!

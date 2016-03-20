@@ -68,5 +68,6 @@ puts name[2] + ' is in slot 2'
 
 
 
-
+# Well done man, exactly how I wanted it completed!! The only thing I see you could have done would have been print out the names 
+# and slots using an loop.
 
